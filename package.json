@@ -1,0 +1,19 @@
+{
+  "name": "valdirmendesdev.abap",
+  "title": "ABAP",
+  "description": "ABAP extension example.",
+  "version": "1.0.0",
+  "keywords": [
+    "staruml",
+    "abap"
+  ],
+  "author": {
+    "name": "Valdir Mendes",
+    "email": "contato@valdirmendes.dev",
+    "url": "https://github.com/valdirmendes"
+  },
+  "license": "MIT",
+  "engines": {
+    "staruml": ">=3.0.0"
+  }
+}
