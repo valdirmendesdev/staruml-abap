@@ -1,0 +1,20 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "ABAP",
+          "id": "tools.abap",
+          "submenu": [
+            {
+              "label": "Generate Code...",
+              "id": "tools.abap.generate",
+              "command": "abap:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
