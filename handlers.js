@@ -1,8 +1,3 @@
-/**
- * Get the model
- * Get the path directory
- * Generate Files
- */
 exports.handleGenerate = async () => {
 
   const { buttonId: clickedButton, returnValue: baseModel } = await app.elementPickerDialog.showDialog('Select a base model to generate codes', null, type.UMLPackage);
@@ -21,5 +16,6 @@ exports.handleGenerate = async () => {
     app.dialogs.showAlertDialog('You must select a folder for the files generation!');
     return
   }
+  const [selectedDirectoryPath] = filesPath;
 
 }
