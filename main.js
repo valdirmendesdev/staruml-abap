@@ -1,9 +1,7 @@
-function handleShowMessage() {
-  window.alert('Hello, world!')
-}
+const { handleGenerate } = require('./handlers')
 
 function init() {
-  app.commands.register('abap:generate', handleShowMessage)
+  app.commands.register('abap:generate', handleGenerate)
 }
 
 exports.init = init

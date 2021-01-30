@@ -1,7 +1,7 @@
 {
   "name": "valdirmendesdev.abap",
   "title": "ABAP",
-  "description": "ABAP extension example.",
+  "description": "ABAP code generation",
   "version": "1.0.0",
   "keywords": [
     "staruml",
@@ -15,5 +15,6 @@
   "license": "MIT",
   "engines": {
     "staruml": ">=3.0.0"
-  }
+  },
+  "devDependencies": {}
 }
